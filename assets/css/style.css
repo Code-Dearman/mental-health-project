@@ -11,7 +11,7 @@ body {
 
 /* -------------------------------------------------Hero Section */
 .hero-image {
-    background: url(assets/images/pexels-veeterzy-114979.jpg) center center / cover;
+    background: url(../images/pexels-veeterzy-114979.jpg) center center / cover;
     height: 75vh;
     margin: 0;
     padding: 0;
