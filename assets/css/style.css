@@ -6,6 +6,10 @@
     text-transform: uppercase;
  }
 
+ body {
+    font-family: "Nunito", sans-serif;
+ }
+
 /* -------------------------------------------------Hero Section */
 .hero-image {
     background-image: url(/assets/images/pexels-eberhardgross-1612362.jpg);
@@ -33,6 +37,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+
     /* ul properties */
     list-style: none;
     margin: 0;
