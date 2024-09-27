@@ -1,74 +1,45 @@
 # Mind Space
+ 
 
 Mind space is a simple, one page website which aims to provide users with some basic information regarding mental health. The site maintains a calm theme and provides users with a peaceful space to learn. Mindspace also provides links to other resources and organisations which can be used to learn more or access help. Finally, Mindspace provides a short section with positive quotes from famous and influential figures. 
 
-<!-- Potentiall include a picture here -->
+<!-- INCLUDE A PICTURE HERE -->
+
+ ____________
 
 ## Features 
 
-### The hero section
-The hero section of the website provides a calm introduction for the user. When first viewed they are presented with a calming photograph, the website name and an invitation to learn more.
-
-### Navbar
-The nav bar sits below the hero section and provides the user with links to all the different portions of the page. Upon scrolling past the Nav bar it will stick to the top of the screen so that the user can reorientate themselves no matter where they are on the page.
-
-###
-
-<!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
-
 ### Existing Features
 
-- __Navigation Bar__
+- __Hero section__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The hero section of the website provides an introduction for the user. When first viewed they are presented with a calming photograph, the website name and an invitation to learn more.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+- __Navigation bar__
 
-- __The landing page image__
+  - The nav bar sits below the hero section and provides the user with links to all the different portions of the page. Upon scrolling past the Nav bar it will stick to the top of the screen so that the user can reorientate themselves no matter where they are on the page.
+  - On the Nav bar there is also a link which opens a modal where the users can contact the website creator and leave feedback.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- __Information Cards__
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  - Created using bootstrap, the information cards will provide a broad overview of mental health topics and issues.
+  - The cards will be brief in content and encourage the reader to learn more on each topic by using the links below.
 
-- __Club Ethos Section__
+- __Resource Links__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The six resource links will allow the reader to gain a more indepth understanding of the topics covered if they wish and will link them to an external page.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __Quotes__ 
 
-- __Meetup Times section__
+  <!-- ADD QUOTES SECTION -->
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __Footer__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  <!-- ADD FOOTER SECTION -->
 
-- __The Footer__ 
+- __Contact Modal__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The contact modal will be accesible from the Nav bar and will give the user a change to provide feedback on the website.
 
 ### Features Left to Implement
 
