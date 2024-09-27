@@ -1,34 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
- /* general styles */
+/* -------------------------------------------------General Styles */
+body {
+    font-family: "Nunito", sans-serif;
+ }
 
  .uppercase {
     text-transform: uppercase;
  }
 
- body {
-    font-family: "Nunito", sans-serif;
- }
-
 /* -------------------------------------------------Hero Section */
 .hero-image {
-    background-image: url(/assets/images/pexels-eberhardgross-1612362.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(/assets/images/pexels-veeterzy-114979.jpg) center center / cover;
     height: 75vh;
     margin: 0;
     padding: 0;
     top: 0;
+    background-position: top;
+}
+
+.header-container {
+    margin-left: 25%;
+    margin-right: 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 }
 
 .hero-title {
     text-align: center;
-    margin-top: 0px;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 1rem;
+    font-size: 5em;
+    color: #fafafa;
+   
     padding-top: 150px;
 }
 
+.sub-header {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 25px;
+}
 
 /* -------------------------------------------------Navigation bar */
 .nav-flexbox {
@@ -47,4 +63,14 @@
 /* -------------------------------------------------Information Cards */
 
 
+
 /* -------------------------------------------------Resource Links */
+
+
+
+/* -------------------------------------------------Media Queries */
+@media screen and (max-width: 480px) {
+    .hero-title {
+        font-size: 4em;
+    }
+}
