@@ -2,7 +2,12 @@
 
 
 /* -------------------------------------------------Hero Section */
-
+.hero-image {
+    background-image: url(/assets/images/pexels-photo-3008099.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
 
 
 /* -------------------------------------------------Navigation bar */
