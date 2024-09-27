@@ -48,7 +48,7 @@ body {
 
 /* -------------------------------------------------Navigation bar */
 .nav {
-    background-color: #7fb069;
+    background-color: #f5e1d3;
 }
 
 .nav-flexbox {
@@ -67,7 +67,15 @@ body {
     font-size: 2.5vmin;
 }
 
+.nav-flexbox a {
+    text-decoration: none;
+    color: #3b444b;
+    transition: color 300ms ease-in-out ;
+}
 
+.nav-flexbox a:hover {
+    color: #8287e2;
+}
 
 /* -------------------------------------------------Information Cards */
 
@@ -83,5 +91,8 @@ body {
         font-size: 4em;
     }
 
+    .nav-flexbox {
+        font-size: 4vmin;
+    }
 
 }
