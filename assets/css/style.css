@@ -31,7 +31,6 @@ body {
 .header-container {
     margin-left: 25%;
     margin-right: 25%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +44,6 @@ body {
     letter-spacing: 1rem;
     font-size: 5em;
     color: #fafafa;
-   
     padding-top: 150px;
 }
 
@@ -68,8 +66,6 @@ body {
     width: 100%;
     height: 4.5vh;
     padding-top: 100px;
-    position: sticky;
-    top: 0;
 
     /* ul properties */
     list-style: none;
@@ -108,7 +104,14 @@ body {
     margin: 50px;
 }
 
+/* -------------------------------------------------Quotes Section */
+.quote-image {
+    border-radius: 50%;
+}
 
+.quote-pair {
+    margin-bottom: 2rem;
+}
 /* -------------------------------------------------Media Queries */
 @media screen and (max-width: 480px) {
     .hero-title {
@@ -121,9 +124,15 @@ body {
 
 }
 
-      /* media query for XXXL containers in bootstrap */
+      /* media query for XXXL screens copied from stack-overflow*/
 @media screen and (min-width: 1800px) {
     .mx-w-100 {
       max-width: 85% !important;
     }
-  }
+}
+
+@media screen and (min-width: 960px) {
+    .nav-flexbox {
+        height: 2.5vh;
+    }
+}
