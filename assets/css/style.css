@@ -104,6 +104,10 @@ body {
     background-color: #a5d8ff;
 }
 
+.cardItem-resource {
+    margin: 50px;
+}
+
 
 /* -------------------------------------------------Media Queries */
 @media screen and (max-width: 480px) {

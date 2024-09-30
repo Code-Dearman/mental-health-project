@@ -35,8 +35,8 @@
         <nav class="nav">
             <ul class="nav-flexbox">
                 <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">Information</a></li>
-                <li class="nav-item"><a href="#">Resources</a></li>
+                <li class="nav-item"><a href="#information-section">Information</a></li>
+                <li class="nav-item"><a href="#resource-links">Resources</a></li>
                 <li class="nav-item"><a href="#">Quotes</a></li>
             </ul>
         </nav>
@@ -45,7 +45,7 @@
     <main>
         <section class="card-section">
 
-            <h2 class="general-header text-center">
+            <h2 class="general-header text-center" id="information-section">
                 Do you want to learn more about mental health?
                 <small class="text-body-secondary d-block">Keep reading... <i class="fa-solid fa-book-open"></i></small>
                 </h3>
@@ -166,35 +166,15 @@
         </section>
 
         <section class="resource-links">
-            <h2 class="text-center general-header">Resources</h2>
+            <h2 class="text-center general-header" id="resource-links">Resources</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <div class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHf860Gqd7loyTE6fJThUnvvoxyVG2htt7g&s"
-                                class="card-img-top" alt="NHS logo">
-                            <div class="card-body">
-                                <h5 class="card-title">The National Health Service</h5>
-                                <p class="card-text">The National Health Service (NHS) in the UK provides a wide range
-                                    of mental health services, free at the point of use. These include talking
-                                    therapies, such as Cognitive Behavioural Therapy (CBT), counselling, and
-                                    psychotherapy, which can be accessed through GP referral or self-referral to local
-                                    Improving Access to Psychological Therapies (IAPT) services. For more severe
-                                    conditions, the NHS offers specialist mental health teams, inpatient care, and
-                                    crisis support.</p>
-                                <div class="text-center">
-                                    <a href="https://www.nhs.uk/nhs-services/mental-health-services/"
-                                        class="btn btn-success" target="_blank">Visit the NHS website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card">
+                        <div class="card cardItem cardItem-resource">
                             <img src="assets/images/MHF-logo24small.png" class="card-img-top"
                                 alt="Mental Health Foundation">
                             <div class="card-body">
-                                <h5 class="card-title">The National Health Service</h5>
+                                <h5 class="card-title">The Mental Health Foundation</h5>
                                 <p class="card-text">The Mental Health Foundation is a leading UK charity dedicated to
                                     improving mental health through research, community programs, and public engagement.
                                     Established in 1949, it focuses on prevention, working to address the root causes of
@@ -210,7 +190,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="card">
+                        <div class="card cardItem cardItem-resource">
                             <img src="https://nspa.org.uk/wp-content/uploads/2020/12/New-Mind-logo-blue.jpg"
                                 class="card-img-top" alt="Mind">
                             <div class="card-body">
@@ -231,7 +211,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
-                        <div class="card">
+                        <div class="card cardItem cardItem-resource">
                             <img src="https://nspa.org.uk/wp-content/uploads/2022/05/CALM-logo-2.png"
                                 class="card-img-top " alt="Calm website">
                             <div class="card-body">
@@ -244,10 +224,7 @@
                                     when they need it, aiming to change this through provocative campaigns,
                                     partnerships, and innovative projects. CALM's work includes raising awareness,
                                     promoting culture change, and pushing for improvements in policy around suicide
-                                    prevention and bereavement support. They run impactful campaigns like #Project84,
-                                    which brought attention to male suicide rates, and provide resources for those
-                                    bereaved by suicide. CALM's approach combines direct support, public education, and
-                                    advocacy to address the high rates of suicide among men in the UK.</p>
+                                    prevention and bereavement support.</p>
                                 <div class="text-center">
                                     <a href="https://www.mentalhealth.org.uk/" class="btn btn-success"
                                         target="_blank">Visit
@@ -256,8 +233,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card cardItem cardItem-resource">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHf860Gqd7loyTE6fJThUnvvoxyVG2htt7g&s"
+                                class="card-img-top" alt="NHS logo">
+                            <div class="card-body">
+                                <h5 class="card-title">The National Health Service</h5>
+                                <p class="card-text">The National Health Service (NHS) in the UK provides a wide range
+                                    of mental health services, free at the point of use. These include talking
+                                    therapies, such as Cognitive Behavioural Therapy (CBT), counselling, and
+                                    psychotherapy, which can be accessed through GP referral or self-referral to local
+                                    Improving Access to Psychological Therapies (IAPT) services. For more severe
+                                    conditions, the NHS offers specialist mental health teams, inpatient care, and
+                                    crisis support.</p>
+                                <div class="text-center">
+                                    <a href="https://www.nhs.uk/nhs-services/mental-health-services/"
+                                        class="btn btn-success" target="_blank">Visit the NHS website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section class="quotes-section">
+            
         </section>
 
     </main>
