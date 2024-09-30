@@ -3,6 +3,7 @@
 /* -------------------------------------------------General Styles */
 body {
     font-family: "Nunito", sans-serif;
+    background-color: #fafafa;
  }
 
  .uppercase {
@@ -64,6 +65,7 @@ body {
     height: 4.5vh;
     padding-top: 100px;
     position: sticky;
+    top: 0;
 
     /* ul properties */
     list-style: none;
@@ -84,13 +86,13 @@ body {
 }
 
 /* -------------------------------------------------Information Cards */
-.card-section {
-    margin-top: 25px;
+.information-header {
+    margin: 50px;
 }
 
-/* .information-header {
-    
-} */
+.cardItem {
+    margin-bottom: 50px;
+}
 
 /* -------------------------------------------------Resource Links */
 
@@ -107,3 +109,10 @@ body {
     }
 
 }
+
+      /* media query for XXXL containers in bootstrap */
+@media screen and (min-width: 1800px) {
+    .mx-w-100 {
+      max-width: 85% !important;
+    }
+  }
