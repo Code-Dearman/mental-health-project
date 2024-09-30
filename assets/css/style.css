@@ -94,6 +94,11 @@ body {
     margin-bottom: 50px;
 }
 
+.card-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 /* -------------------------------------------------Resource Links */
 
 
