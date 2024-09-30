@@ -14,6 +14,10 @@ body {
     text-align: center;
  }
 
+ .general-header {
+    padding: 50px;
+}
+
 /* -------------------------------------------------Hero Section */
 .hero-image {
     background: url(../images/pexels-veeterzy-114979.jpg) center center / cover;
@@ -86,10 +90,6 @@ body {
 }
 
 /* -------------------------------------------------Information Cards */
-.information-header {
-    margin: 50px;
-}
-
 .cardItem {
     margin-bottom: 50px;
 }
@@ -100,7 +100,9 @@ body {
 }
 
 /* -------------------------------------------------Resource Links */
-
+.resource-links {
+    background-color: #a5d8ff;
+}
 
 
 /* -------------------------------------------------Media Queries */
