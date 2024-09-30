@@ -9,6 +9,10 @@ body {
     text-transform: uppercase;
  }
 
+ .text-center {
+    text-align: center;
+ }
+
 /* -------------------------------------------------Hero Section */
 .hero-image {
     background: url(../images/pexels-veeterzy-114979.jpg) center center / cover;
@@ -70,7 +74,8 @@ body {
 .nav-flexbox a {
     text-decoration: none;
     color: #3b444b;
-    transition: color 300ms ease-in-out ;
+    transition: color 300ms ease-in-out;
+    font-weight: 800;
 }
 
 .nav-flexbox a:hover {
@@ -78,6 +83,10 @@ body {
 }
 
 /* -------------------------------------------------Information Cards */
+.card-section {
+    margin-top: 25px;
+}
+
 .information-header {
     
 }
