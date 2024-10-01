@@ -54,7 +54,7 @@ body {
 }
 
 /* -------------------------------------------------Navigation bar */
-.nav {
+.nav-section {
     background-color: #f5e1d3;
 }
 
@@ -86,6 +86,10 @@ body {
 }
 
 /* -------------------------------------------------Information Cards */
+.card-section {
+    background-color: #e6e6fa;
+}
+
 .cardItem {
     margin-bottom: 50px;
 }
@@ -101,19 +105,24 @@ body {
 }
 
 .cardItem-resource {
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 /* -------------------------------------------------Quotes Section */
 /* invert the color of the standard bootstrap carousel buttons */
+.quotes-section {
+    background-color: #e6e6fa;
+}
+
 .carousel-button {
     filter: invert(100%);
 }
 
 .carousel-section {
-    border: 1px solid black;
     border-radius: 10px;
+    width: 75%;
 }
+
 /* -------------------------------------------------Media Queries */
 @media screen and (max-width: 480px) {
     .hero-title {
@@ -126,6 +135,12 @@ body {
 
 }
 
+@media screen and (min-width: 960px) {
+    .nav-flexbox {
+        height: 2.5vh;
+    }
+}
+
       /* media query for XXXL screens copied from stack-overflow*/
 @media screen and (min-width: 1800px) {
     .mx-w-100 {
@@ -133,8 +148,3 @@ body {
     }
 }
 
-@media screen and (min-width: 960px) {
-    .nav-flexbox {
-        height: 2.5vh;
-    }
-}
