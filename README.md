@@ -87,7 +87,7 @@ Early deployment on Github Pages was essential to see how the website would be v
 I also tested the website on phyiscal devices to get a feeling for how easy it was to navigate. This was particularly important when deciding to resize the font of the nav bar on smaller screens.
 
 ### Colour Contrast Testing
-- Text contrast was check using the [WebAIM tool](https://webaim.org/resources/contrastchecker/).
+- Text contrast was checked using the [WebAIM tool](https://webaim.org/resources/contrastchecker/).
 
 ### Validator Testing 
 
@@ -101,6 +101,8 @@ I also tested the website on phyiscal devices to get a feeling for how easy it w
 - Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
 
 - When clicking a link in the top nav bar the nav bar will cover the section heading.
+
+- Font colour of the quote citation needs adjusting as the contrast is poor against the background.
 
 ## Deployment
 
