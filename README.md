@@ -1,10 +1,8 @@
 # Mind Space
- 
+
+![Website hero image](assets/images/Screenshot%202024-10-01%20151033.png)
 
 Mind space is a simple, one page website which aims to provide users with some basic information regarding mental health. The site maintains a calm theme and provides users with a peaceful space to learn. Mindspace also provides links to other resources and organisations which can be used to learn more or access help. Finally, Mindspace provides a short section with positive quotes from famous and influential figures. 
-
-<!-- INCLUDE A PICTURE HERE -->
-![Website hero image](assets/images/Screenshot%202024-10-01%20151033.png)
 
 ## Features 
 
