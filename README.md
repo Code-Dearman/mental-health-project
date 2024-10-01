@@ -80,7 +80,7 @@ During the building process the website took a slighty different form to what I 
 
 ## Testing 
 
-The majority of the testing process was conducted while the website was still being produced. Using a local test server and the developer tools built into the browser I was able to effectively test the responsiveness of a range of devices. Various visual issues were also identified during this process. I ran some code through AI models like Claude and ChatGPT in order to identify typing errors or missed divs which I could not see myself.
+The majority of the testing process was conducted while the website was still being produced. Using a local test server and the developer tools built into the browser I was able to effectively test the responsiveness on a range of devices. Various visual issues were also identified during this process. I ran some code through AI models like Claude and ChatGPT in order to identify typing errors or missed divs which I could not see myself.
 
 Early deployment on Github Pages was essential to see how the website would be viewed by a user and helped me to highlight further issues such as broken file pathways.
 
@@ -89,12 +89,15 @@ I also tested the website on phyiscal devices to get a feeling for how easy it w
 ### Colour Contrast Testing
 - Text contrast was checked using the [WebAIM tool](https://webaim.org/resources/contrastchecker/).
 
+### Accesiblity Testing
+- Accessibility testing was done using the [WAVE Tool](https://wave.webaim.org/).
+
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcodefish-fullstack.github.io%2Fmental-health-project%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcodefish-fullstack.github.io%2Fmental-health-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
