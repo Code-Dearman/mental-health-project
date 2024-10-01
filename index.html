@@ -268,7 +268,7 @@
                 <div id="carousel" class="carousel slide carousel-section">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/terry-publicity-1.jpg" class="d-block mx-auto w-10"
+                            <img src="assets/images/terry-publicity-1.jpg" class="d-block mx-auto w-10 quote-image"
                                 alt="Terry Pratchett">
                             <figure class="text-center">
                                 <blockquote class="blockquote pt-3">
@@ -281,7 +281,8 @@
                             </figure>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/VWoolf.jpg" class="d-block mx-auto w-10" alt="Virginia Woolf">
+                            <img src="assets/images/VWoolf.jpg" class="d-block mx-auto w-10 quote-image"
+                                alt="Virginia Woolf">
                             <figure class="text-center">
                                 <blockquote class="blockquote pt-3">
                                     <p>"No need to hurry. No need to sparkle. No need to be anybody but oneself."
@@ -293,8 +294,8 @@
                             </figure>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/1964-Lennon-McCartney_(cropped).jpg" class="d-block mx-auto w-10"
-                                alt="Virginia Woolf">
+                            <img src="assets/images/1964-Lennon-McCartney_(cropped).jpg"
+                                class="d-block mx-auto w-10 quote-image" alt="Virginia Woolf">
                             <figure class="text-center">
                                 <blockquote class="blockquote pt-3">
                                     <p>"And in the end, The love you take is equal to the love you make."
@@ -322,8 +323,7 @@
 
     </main>
 
-    <div class="modal fade" id="staticBackdrop" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content text-center">
                 <div class="modal-header">
@@ -332,7 +332,19 @@
                 </div>
                 <div class="modal-body">
                     <form action="post">
-                        
+                        <div class="mb-3">
+                            <label for="name-area" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name-area" placeholder="Your name here">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email-area" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email-area" placeholder="Example@Example.com" aria-describedby="emailText" required>
+                            <div class="form-text" id="emailText">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="text-area" class="form-label">Let us know what you think</label>
+                            <textarea name="text-area" id="text-area" class="form-control" rows="3"></textarea>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -360,7 +372,9 @@
                     <a href="#quotes" class="nav-link text-body-secondary">Quotes</a>
                 </li>
                 <li class="nav-item">
-                    <p class="nav-link text-body-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</p>
+                    <p class="nav-link text-body-secondary contact-us-button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Contact Us</p>
                 </li>
             </ul>
             <p class="text-center text-body-secondary">© Mind-Space 2024</p>

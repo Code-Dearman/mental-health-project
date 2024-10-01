@@ -116,11 +116,11 @@ hr {
 }
 
 /* -------------------------------------------------Quotes Section */
-/* invert the color of the standard bootstrap carousel buttons */
 .quotes-section {
     background-color: #e6e6fa;
 }
 
+/* invert the color of the standard bootstrap carousel buttons */
 .carousel-button {
     filter: invert(100%);
 }
@@ -128,6 +128,16 @@ hr {
 .carousel-section {
     border-radius: 10px;
     width: 75%;
+}
+
+.quote-image {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px #888888;
+}
+
+/* -------------------------------------------------Quotes Section */
+.contact-us-button:hover {
+    cursor: pointer;
 }
 
 /* -------------------------------------------------Media Queries */
