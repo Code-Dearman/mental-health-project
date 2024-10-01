@@ -124,6 +124,7 @@ body {
 }
 
 /* -------------------------------------------------Media Queries */
+    /* changing font size of headers and nav links on small devices */
 @media screen and (max-width: 480px) {
     .hero-title {
         font-size: 4em;
@@ -135,6 +136,7 @@ body {
 
 }
 
+    /* Changing size of navbar on small/medium devices */
 @media screen and (min-width: 960px) {
     .nav-flexbox {
         height: 2.5vh;
