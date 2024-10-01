@@ -25,7 +25,7 @@ During the building process the website took a slighty different form to what I 
   - The resource links, again in cards, allow the reader to get a little information about each website before they choose to visit them. On clicking the link the website opens in a seperate tab to that the user doesn't have to leave the website entirely.
 
 - As a user I want to be able to navigate the information easily.
-  - The nav bar is the primary point of navigation for the user. I decided to position it below the hero image as I wanted the introduction to the site to be as calming and clutter free as possible. The sticking of the nav bar upon scrolling past it was    essential in making sure that when the user is fully set on browing the site that they can re-navigate at will
+  - The nav bar is the primary point of navigation for the user. I decided to position it below the hero image as I wanted the introduction to the site to be as calming and clutter free as possible. The sticking of the nav bar upon scrolling past it was    essential in making sure that when the user is fully set on browing the site that they can re-navigate at will.
 
 - As a user I want to be able to contact the website developer.
   - I wanted to ensure that the user had seen the extent of the site before leaving any feedback as scrolling through the content may answer any questions that they may have. For this reason I only included the 'contact us' section in the footer nav bar.
@@ -63,11 +63,13 @@ During the building process the website took a slighty different form to what I 
 
   - The footer will hold a condensed version of the nav bar with the additional option of a contact us modal. There will also be a copyright section.
 
-### Further Features
-
 - __Contact Modal__
 
   - The contact modal would be accesible from the bottom nav bar. A pop-up window would allow the user to fill in a form with their name, email address and a message. 
+
+### Further Features
+
+- ____
 
 ## Testing 
 
@@ -75,7 +77,7 @@ The majority of the testing process was conducted while the website was still be
 
 Early deployment on Github Pages was essential to see how the website would be viewed by a user and helped me to highlight further issues such as broken file pathways.
 
-
+I also tested the website on phyiscal devices to get a feeling for how easy it was to navigate. This was particularly important when deciding to resize the font of the nav bar on smaller screens.
 
 ### Validator Testing 
 
@@ -87,6 +89,8 @@ Early deployment on Github Pages was essential to see how the website would be v
 ### Unfixed Bugs
 
 - Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
+
+- When clicking a link in the top nav bar the nav bar will cover the section heading.
 
 ## Deployment
 
