@@ -54,6 +54,8 @@
                 <small class="text-body-secondary d-block">Keep reading... <i class="fa-solid fa-book-open"></i></small>
             </h2>
 
+            <hr>
+
             <div class="container card-container mx-w-100">
 
                 <div class="row">
@@ -171,6 +173,9 @@
 
         <section class="resource-links">
             <h2 class="text-center general-header" id="resource-links">Resources</h2>
+
+            <hr>
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex">
@@ -195,8 +200,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex">
                         <div class="card cardItem cardItem-resource flex-fill">
-                            <img src="assets/images/New-Mind-logo-blue.jpg"
-                                class="card-img-top" alt="Mind logo">
+                            <img src="assets/images/New-Mind-logo-blue.jpg" class="card-img-top" alt="Mind logo">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Mind</h5>
                                 <p class="card-text">Mind is one of the UK's leading mental health charities, founded in
@@ -215,8 +219,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex">
                         <div class="card cardItem cardItem-resource flex-fill">
-                            <img src="assets/images/CALM-logo-2.png"
-                                class="card-img-top " alt="Calm website logo">
+                            <img src="assets/images/CALM-logo-2.png" class="card-img-top " alt="Calm website logo">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">CALM</h5>
                                 <p class="card-text">CALM (Campaign Against Living Miserably) is a leading UK charity
@@ -235,8 +238,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-fill">
                         <div class="card cardItem cardItem-resource">
-                            <img src="assets/images/images.png"
-                                class="card-img-top" alt="NHS logo">
+                            <img src="assets/images/images.png" class="card-img-top" alt="NHS logo">
                             <div class="card-body d-flex flex-column mt-5">
                                 <h5 class="card-title">The National Health Service</h5>
                                 <p class="card-text">The National Health Service (NHS) in the UK provides a wide range
@@ -259,6 +261,9 @@
 
         <section class="container-fluid pb-5 quotes-section">
             <h2 class="general-header text-center" id="quotes">Quotes</h2>
+
+            <hr>
+
             <div class="row justify-content-center">
                 <div id="carousel" class="carousel slide carousel-section">
                     <div class="carousel-inner">
@@ -266,7 +271,7 @@
                             <img src="assets/images/terry-publicity-1.jpg" class="d-block mx-auto w-10"
                                 alt="Terry Pratchett">
                             <figure class="text-center">
-                                <blockquote class="blockquote">
+                                <blockquote class="blockquote pt-3">
                                     <p>“Coming back to where you started is not the same as never leaving.”
                                     </p>
                                 </blockquote>
@@ -278,7 +283,7 @@
                         <div class="carousel-item">
                             <img src="assets/images/VWoolf.jpg" class="d-block mx-auto w-10" alt="Virginia Woolf">
                             <figure class="text-center">
-                                <blockquote class="blockquote">
+                                <blockquote class="blockquote pt-3">
                                     <p>"No need to hurry. No need to sparkle. No need to be anybody but oneself."
                                     </p>
                                 </blockquote>
@@ -291,7 +296,7 @@
                             <img src="assets/images/1964-Lennon-McCartney_(cropped).jpg" class="d-block mx-auto w-10"
                                 alt="Virginia Woolf">
                             <figure class="text-center">
-                                <blockquote class="blockquote">
+                                <blockquote class="blockquote pt-3">
                                     <p>"And in the end, The love you take is equal to the love you make."
                                     </p>
                                 </blockquote>
@@ -317,6 +322,28 @@
 
     </main>
 
+    <div class="modal fade" id="staticBackdrop" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Contact us!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="post">
+                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container-fluid">
         <footer class="my-4 py-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -333,7 +360,7 @@
                     <a href="#quotes" class="nav-link text-body-secondary">Quotes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link text-body-secondary">Contact Us</a>
+                    <p class="nav-link text-body-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</p>
                 </li>
             </ul>
             <p class="text-center text-body-secondary">© Mind-Space 2024</p>

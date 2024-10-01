@@ -18,6 +18,13 @@ body {
     padding: 50px;
 }
 
+hr {
+    border-top: 4px solid black;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 50px auto;
+}
+
 /* -------------------------------------------------Hero Section */
 .hero-image {
     background: url(../images/pexels-veeterzy-114979.jpg) center center / cover;
