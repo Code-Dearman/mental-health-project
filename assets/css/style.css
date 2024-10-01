@@ -105,12 +105,14 @@ body {
 }
 
 /* -------------------------------------------------Quotes Section */
-.quote-image {
-    border-radius: 50%;
+/* invert the color of the standard bootstrap carousel buttons */
+.carousel-button {
+    filter: invert(100%);
 }
 
-.quote-pair {
-    margin-bottom: 2rem;
+.carousel-section {
+    border: 1px solid black;
+    border-radius: 10px;
 }
 /* -------------------------------------------------Media Queries */
 @media screen and (max-width: 480px) {
