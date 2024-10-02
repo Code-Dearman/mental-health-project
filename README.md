@@ -86,11 +86,9 @@ Early deployment on Github Pages was essential to see how the website would be v
 
 I also tested the website on physical devices to get a feeling for how easy it was to navigate. This was particularly important when deciding to resize the font of the nav bar on smaller screens.
 
-### Colour Contrast Testing
-- Text contrast was checked using the [WebAIM tool](https://webaim.org/resources/contrastchecker/).
-
 ### Accessiblity Testing
 - Accessibility testing was done using the [WAVE Tool](https://wave.webaim.org/).
+- Text contrast was checked using the [WebAIM tool](https://webaim.org/resources/contrastchecker/).
 
 ### Validator Testing 
 
