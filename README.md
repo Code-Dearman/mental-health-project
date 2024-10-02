@@ -100,11 +100,13 @@ I also tested the website on physical devices to get a feeling for how easy it w
   - ![W3C CSS Validation](assets/images/w3cCSS.png)
 ### Unfixed Bugs
 
-- Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
-
 - When clicking a link in the top nav bar the nav bar will cover the section heading.
 
+- Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
+- ![Landscape display bug](assets/images/LandscapeBug.png)
+
 - Font colour of the quote citation needs adjusting as the contrast is poor against the background.
+- ![WAVE Accessiblity Checker warnings](assets/images/WAVEaccessibility.png)
 
 ## Deployment
 
