@@ -65,6 +65,7 @@ hr {
 /* -------------------------------------------------Navigation bar */
 .nav-section {
     background-color: #f5e1d3;
+    box-shadow: 0 4px 3px -2px gray;
 }
 
 .nav-flexbox {
