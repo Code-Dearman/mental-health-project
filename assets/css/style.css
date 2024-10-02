@@ -137,6 +137,10 @@ hr {
     box-shadow: 5px 5px 5px 0px #888888;
 }
 
+.blockquote-footer {
+    color: #030303;
+}
+
 /* -------------------------------------------------Quotes Section */
 .contact-us-button:hover {
     cursor: pointer;
