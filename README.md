@@ -105,9 +105,6 @@ I also tested the website on physical devices to get a feeling for how easy it w
 - Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
 - ![Landscape display bug](assets/images/LandscapeBug.png)
 
-- Font colour of the quote citation needs adjusting as the contrast is poor against the background.
-- ![WAVE Accessiblity Checker warnings](assets/images/WAVEaccessibility.png)
-
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
