@@ -94,9 +94,10 @@ I also tested the website on physical devices to get a feeling for how easy it w
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcodefish-fullstack.github.io%2Fmental-health-project%2F)
+  - ![W3C HTML Validation](assets/images/w3cHTML.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcodefish-fullstack.github.io%2Fmental-health-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
+  - ![W3C CSS Validation](assets/images/w3cCSS.png)
 ### Unfixed Bugs
 
 - Using landscape display on mobile devices causes the subheading in the hero section to clash with the nav bar and information section.
