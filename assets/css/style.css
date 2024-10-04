@@ -78,7 +78,7 @@ hr {
     /* flex properties */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 5vh;
     padding-top: 100px;
@@ -99,6 +99,14 @@ hr {
 
 .nav-flexbox a:hover {
     color: #8287e2;
+}
+
+/* Nav dropdown in small screen */
+.dropdown {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: #f5e1d3;
 }
 
 /* -------------------------------------------------Information Cards */

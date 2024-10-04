@@ -39,10 +39,27 @@
 
     <nav class="nav sticky-top nav-section">
         <ul class="nav-flexbox">
-            <li class="nav-item"><a href="#"><i class="fa-solid fa-house d-none d-md-inline"> </i>Home</a></li>
-            <li class="nav-item"><a href="#information-section"><i class="fa-solid fa-circle-info d-none d-md-inline"> </i>Information</a></li>
-            <li class="nav-item"><a href="#resource-links"><i class="fa-solid fa-gear d-none d-md-inline"> </i>Resources</a></li>
-            <li class="nav-item"><a href="#quotes"><i class="fa-solid fa-comment d-none d-md-inline"> </i>Quotes</a></li>
+            <li class="nav-item d-none d-md-inline"><a href="#"><i class="fa-solid fa-house d-none d-md-inline">
+                    </i>Home</a></li>
+            <li class="nav-item d-none d-md-inline"><a href="#information-section"><i
+                        class="fa-solid fa-circle-info d-none d-md-inline"> </i>Information</a></li>
+            <li class="nav-item d-none d-md-inline"><a href="#resource-links"><i
+                        class="fa-solid fa-gear d-none d-md-inline"> </i>Resources</a></li>
+            <li class="nav-item d-none d-md-inline"><a href="#quotes"><i class="fa-solid fa-comment d-none d-md-inline">
+                    </i>Quotes</a></li>
+
+            <li class="nav-item d-sm-inline d-md-none"><a href="#"><i class="fa-solid fa-house d-none d-md-inline">
+                    </i>Mind-Space</a></li>
+            <li class="nav-item d-sm-inline d-md-none has-dropdown">
+                <a href="#"></a><i class="fa-solid fa-bars"></i>
+                <ul class="dropdown">
+                    <li class="dropdown-item"><a href="">Information</a></li>
+                    <li class="dropdown-item"><a href="">Resources</a></li>
+                    <li class="dropdown-item"><a href="">Quotes</a></li>
+                </ul>
+            </li>
+
+
         </ul>
     </nav>
 
@@ -229,8 +246,7 @@
                                     charity is dedicated to challenging the culture that prevents men from seeking help
                                     when they need it.</p>
                                 <div class="text-center mt-auto">
-                                    <a href="https://www.thecalmzone.net/" class="btn btn-success"
-                                        target="_blank">Visit
+                                    <a href="https://www.thecalmzone.net/" class="btn btn-success" target="_blank">Visit
                                         the Calm website</a>
                                 </div>
                             </div>
@@ -338,7 +354,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="email-area" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email-area" placeholder="Example@Example.com" aria-describedby="emailText" required>
+                            <input type="email" class="form-control" id="email-area" placeholder="Example@Example.com"
+                                aria-describedby="emailText" required>
                             <div class="form-text" id="emailText">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
@@ -350,9 +367,9 @@
                         </div>
                     </form>
                 </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
