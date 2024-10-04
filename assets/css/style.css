@@ -27,6 +27,11 @@ hr {
     margin: 0 auto 50px auto;
 }
 
+/* nav bar acceptance */
+.nav-acceptance {
+    padding-top: 5vh;
+}
+
 /* -------------------------------------------------Hero Section */
 .hero-image {
     background-image: url(../images/pexels-veeterzy-114979.jpg);
